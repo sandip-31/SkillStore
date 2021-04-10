@@ -1,0 +1,11 @@
+.app_banner{
+    height: 400px;
+    width: 100%;
+}
+
+@media (max-width: 790px) {
+    .app_banner{
+        height: 230px;
+        width: 100%;
+    }
+}
