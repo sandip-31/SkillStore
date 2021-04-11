@@ -5,8 +5,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import SearchBar from "../header/SearchBar";
 
-function ComputerScience() {
-  const [skills, setSkills] = useState([]);
+function Petroleum() {
+    const [skills, setSkills] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 
   const handleChange = (event) => {
@@ -50,7 +50,7 @@ function ComputerScience() {
         </div>
       </div>
     </div>
-  ); 
+  );
 }
 
-export default ComputerScience;
+export default Petroleum

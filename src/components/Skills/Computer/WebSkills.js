@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import WebCourse from "../../Courses/CsCourses/WebCourse";
+import WebCourse from "../../Courses/Computer/WebCourse";
 import db from "../../../firebase";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -42,6 +42,7 @@ function WebSkills() {
                 platform={tech.data.platform}
                 text={tech.data.text}
                 label={tech.data.name}
+                link={tech.data.link}
               />
             </Col>
           ))}
