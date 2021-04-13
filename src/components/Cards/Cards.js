@@ -6,10 +6,11 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import SearchBar from "../header/SearchBar";
 
+
 function Cards() {
   const [technology, setTechnology] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-
+ 
   const handleChange = (event) => {
     setSearchTerm(event.target.value);
   };
@@ -30,15 +31,13 @@ function Cards() {
     <div className="cards">
       <h1>Skills you want to like explore!!</h1>
       <div className="app__header">
-      <SearchBar
-        type="search"
-        placeholder="Search"
-        value={searchTerm}
-        onChange={handleChange}
-      />
-
+        <SearchBar
+          type="search"
+          placeholder="Search"
+          value={searchTerm}
+          onChange={handleChange}
+        />
       </div>
-     
 
       <div className="cards__container">
         <div className="cards__wrapper">

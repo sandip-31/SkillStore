@@ -35,7 +35,7 @@ function Mechanical() {
             <ul className="cards__items">
               <Row gutter={40}>
                 {filteredSkills.map((tech) => (
-                  <Col md={3} sm={6} >
+                  <Col md={4} sm={6} >
                     <CardItem
                       key={tech.data.id}
                       src={tech.data.image}
